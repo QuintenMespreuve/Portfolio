@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -17,29 +17,38 @@ header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 header p {
     margin: 0.5rem 0 0;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 main {
@@ -50,34 +59,76 @@ section {
     margin-bottom: 2rem;
 }
 
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
 .project {
     background: #fff;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    margin: 0.5rem 0;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project a:hover {
+    color: #007BFF;
 }
 
 form label {
     display: block;
     margin-top: 10px;
+    font-weight: 700;
 }
 
 form input, form textarea {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.75rem;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 form button {
     margin-top: 10px;
-    padding: 0.7rem;
+    padding: 0.75rem 1.5rem;
     background: #333;
     color: #fff;
     border: 0;
     cursor: pointer;
     border-radius: 4px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #007BFF;
 }
 
 footer {
