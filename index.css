@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #1e1e1e;
 }
 
 .container {
@@ -18,6 +18,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 header h1 {
@@ -62,8 +63,8 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #333;
-    border-bottom: 2px solid #333;
+    color: #61dafb;
+    border-bottom: 2px solid #61dafb;
     display: inline-block;
     padding-bottom: 0.5rem;
 }
@@ -74,14 +75,17 @@ section h2 {
     border-radius: 50%;
     display: block;
     margin: 0 auto 1rem;
+    object-fit: cover;
+    border: 3px solid #61dafb;
 }
 
 .project {
-    background: #fff;
+    background: #2a2a2a;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    color: #61dafb;
 }
 
 .project h3 {
@@ -94,7 +98,7 @@ section h2 {
 }
 
 .project a {
-    color: #333;
+    color: #61dafb;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s ease;
@@ -105,13 +109,14 @@ section h2 {
 }
 
 .project a:hover {
-    color: #007BFF;
+    color: #fff;
 }
 
 form label {
     display: block;
     margin-top: 10px;
     font-weight: 700;
+    color: #61dafb;
 }
 
 form input, form textarea {
@@ -121,12 +126,14 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+    background-color: #333;
+    color: #fff;
 }
 
 form button {
     margin-top: 10px;
     padding: 0.75rem 1.5rem;
-    background: #333;
+    background: #61dafb;
     color: #fff;
     border: 0;
     cursor: pointer;
