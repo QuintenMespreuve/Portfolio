@@ -68,6 +68,14 @@ section h2 {
     padding-bottom: 0.5rem;
 }
 
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
 .project {
     background: #fff;
     padding: 1.5rem;
